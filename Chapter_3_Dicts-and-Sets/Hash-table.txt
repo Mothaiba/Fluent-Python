@@ -1,0 +1,12 @@
+Hash-table is the data structure behind Dicts and Sets.
+(Not Binary search tree.)
+
+The Hash-table is very fast if the table-size fits in memory.
+
+Because of Hash table:
+
+- dicts and sets have a high memory overhead.
+
+- key ordering depends on insertion order.
+
+- if you iterate over the dictionary keys and change them at the same time, your loop may not scan all the items as expected - not even the items that were already in the dictionary before you added to it. (Why? because of Hash table expandation.)
